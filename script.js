@@ -39,7 +39,7 @@ $(function () {
   var $square = $('.square');
 
   var current_v = 0, current_h = 0;
-   
+
   var move = function (v, h, anim) {
     var duration = anim ? 500 : 0;
     current_v = v;
@@ -146,7 +146,7 @@ $(function () {
     last_offset_v = offset_v;
     last_offset_h = offset_h;
   };
-
+// test
   var endSplash = function (func) {
     setTimeout(function () {
       setTimeout(function () {
